@@ -49,7 +49,7 @@ services:
       - mysql
 
   devlake:
-    image: devlake.docker.scarf.sh/apache/devlake:v0.17.0
+    image: devlake.docker.scarf.sh/apache/devlake:v0.21.0
     ports:
       - 8080:8080
     restart: always
