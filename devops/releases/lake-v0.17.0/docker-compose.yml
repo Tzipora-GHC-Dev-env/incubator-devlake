@@ -62,7 +62,7 @@ services:
       - mysql
 
   config-ui:
-    image: devlake.docker.scarf.sh/apache/devlake-config-ui:v0.17.0
+    image: devlake.docker.scarf.sh/apache/devlake-config-ui:v0.21.0
     ports:
       - 4000:4000
     env_file:
