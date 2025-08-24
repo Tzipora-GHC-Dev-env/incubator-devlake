@@ -50,7 +50,7 @@ services:
       - mysql
 
   devlake:
-    image: apache/devlake:v0.15.0
+    image: apache/devlake:v0.21.0
     ports:
       - 127.0.0.1:8080:8080
     restart: always
