@@ -46,7 +46,7 @@ services:
 
   # see https://developer.atlassian.com/platform/marketplace/timebomb-licenses-for-testing-server-apps/ for temporary test licenses
   jira:
-    image: atlassian/jira-software:9.5.0
+    image: atlassian/jira-software:9.17.5
     volumes:
       - ./.docker/jira:/var/atlassian/jira
       #download this jar from https://dev.mysql.com/downloads/connector/j/8.0.html if needed
