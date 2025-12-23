@@ -73,7 +73,7 @@ services:
 
   # see https://developer.atlassian.com/platform/marketplace/timebomb-licenses-for-testing-server-apps/ for temporary test licenses
   bitbucket:
-    image: atlassian/bitbucket-server:8.7.0
+    image: atlassian/bitbucket-server:8.18.0
     ports:
       - "7990:7990" # the UI
       - "7999:7999"
