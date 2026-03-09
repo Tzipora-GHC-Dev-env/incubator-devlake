@@ -33,7 +33,7 @@ services:
       --skip-log-bin
 
   grafana:
-    image: devlake.docker.scarf.sh/apache/devlake-dashboard:v0.20.0   
+    image: devlake.docker.scarf.sh/apache/devlake-dashboard:v0.21.0   
     ports:
       - 3002:3000
     volumes:

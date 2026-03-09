@@ -29,7 +29,7 @@ services:
       MYSQL_PASSWORD: merico
 
   grafana:
-    image: apache/devlake-dashboard:v0.13.0
+    image: apache/devlake-dashboard:v0.21.0
     ports:
       - 3002:3000
     volumes:

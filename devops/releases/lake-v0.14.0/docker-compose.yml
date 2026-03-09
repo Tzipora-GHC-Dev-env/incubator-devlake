@@ -32,7 +32,7 @@ services:
       --collation-server=utf8mb4_bin
 
   grafana:
-    image: apache/devlake-dashboard:v0.14.0
+    image: apache/devlake-dashboard:v0.21.0
     ports:
       - 3002:3000
     volumes:
